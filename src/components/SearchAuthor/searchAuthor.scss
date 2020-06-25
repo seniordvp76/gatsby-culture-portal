@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.authorCard{
+    flex-direction: row;
+    width:100%;
+    border: none;
+    background-color: transparent;
+    font-family: 'Roboto','Arial', sans-serif;
+    justify-content: space-between;
+    margin-bottom:100px;
+}
+
+.photoCard{
+    width: 16%;
+    height:90%;
+    margin-right:3.5rem;
+}
+@media (max-width: 767px){
+    .photoCard{
+        display:none;
+    }
+}
+
+.titleCard{
+    font-weight:bold;
+}

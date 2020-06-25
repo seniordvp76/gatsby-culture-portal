@@ -1,0 +1,9 @@
+@import '../../../node_modules/react-modal-video/css/modal-video.min.css';
+
+.video-block {
+  display: flex;
+  margin-top:45px;
+
+}
+
+

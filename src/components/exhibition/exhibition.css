@@ -1,0 +1,50 @@
+.exhibition h1 {
+  font-weight: 500;
+  color: #40589A;
+}
+
+.exhib__group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+
+.exhib__card {
+  width: 16rem;
+  border: none;
+  border-radius: unset;
+  box-shadow: 0 0 20px rgba(0,0,0,.26);
+  margin: 9px;
+  transition: box-shadow .2s ease;
+  overflow: hidden;
+  color: #584c54;
+  font-weight: 900;
+}
+
+.exhib__card div.gatsby-image-wrapper {
+  max-height: 10rem;
+}
+
+.exhib__desc {
+  margin: -1.3rem -0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exhib__card div.card-header {
+  background: white;
+  border: none;
+  padding: 0 0 0.2rem 0;
+}
+
+.exhib__desc .card-text:last-child {
+  margin-bottom: 0.2rem;
+}
+
+.exhib__desc .card-title {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}
+

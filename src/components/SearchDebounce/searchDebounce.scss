@@ -1,0 +1,19 @@
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #666;
+    outline:none;
+    color:#000;
+    margin-bottom:120px;
+    &:hover{
+        background-color: #40589A;
+        color:#fff;
+        &::placeholder{
+            color:#fff;
+        }
+    }
+    &::placeholder{
+        color:#000;
+    }
+}

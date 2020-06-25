@@ -1,0 +1,51 @@
+.carousel .control-dots .dot {
+	width: 23px;
+	height: 23px;
+	outline: none;
+	background: #40589A;
+	opacity: 0.5;
+}
+
+.carousel.carousel-slider {
+  margin-bottom: 120px;
+}
+
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:hover {
+	border: 3px solid #FFFFFF;
+}
+
+.carousel.carousel-slider .control-arrow {
+	display: inline-block;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	content: '';
+
+}
+
+.carousel .control-prev.control-arrow:before {
+	border-right: 20px solid #40589A;
+}
+
+.carousel .control-next.control-arrow:before {
+	border-left: 20px solid #40589A;
+}
+
+.carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+
+.main_slider_img {
+	margin: 0;
+}
+
+.carousel .slide {
+	background: transparent;
+}
+
+.gallery h1 {
+  font-weight: 500;
+  color: #40589A;
+}

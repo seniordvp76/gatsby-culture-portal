@@ -1,0 +1,46 @@
+.navbar{
+    padding:0;
+  }
+   .navbar-nav{
+     padding:0;
+     width:100%;
+     justify-content:space-between;
+  }
+  @media (max-width: 767px){
+    .wrapper{
+      flex-direction:column;
+    }
+  }
+  .wrapper{
+    display:flex;
+  }
+   .navbar-brand img{
+    width: 90px;
+    height: 90px;
+    margin-bottom:0;
+    margin-right:8vw;
+  }
+  .nav-item:not(:last-child){
+    margin-right: 5vw;
+  }
+  .nav-item, a.menuLink{
+    font-size: 1.2rem;
+    padding-right:10px;
+    padding-bottom:10px;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-right:10px;
+    outline:none;
+    width:fit-content;
+    color:#000;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline:none;
+    cursor:pointer;
+    & a:hover{
+      color:#40589A;
+      text-decoration: none;
+    }
+  }
+

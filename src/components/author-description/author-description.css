@@ -1,0 +1,41 @@
+.author-description_wrapper {
+  display: flex;
+  margin: 0px 0px 120px 0px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.author-description_photo {
+  width: 30%;
+}
+
+#author-description_block {
+  width: 70%;
+  background: none;
+  border: none;
+}
+.cardBody{
+  text-align:left;
+  margin-left:3.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .author-description_wrapper {
+    flex-direction: column;
+  }
+  .author-description_photo {
+    margin: auto;
+    width: 60%;
+  }
+
+  #author-description_block {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+#author-description_title {
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-size: 30px;
+  font-weight: bold;
+}

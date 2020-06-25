@@ -1,0 +1,13 @@
+.description {
+	font-weight: 1.5rem;
+	font-family: 'Roboto';
+	text-indent: 2.5rem;
+	text-align: justify;
+	margin: 0px 0px 120px 0px;
+}
+
+.h1 {
+	color: #40589A;
+	text-align: center;
+	margin: 45px auto;
+}
